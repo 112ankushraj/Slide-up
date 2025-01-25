@@ -1,0 +1,15 @@
+.page{
+    width: 720px;
+    height: 480px;
+    border: 20px groove black;
+    margin: 50px auto;
+    background: url(../image/ankushdress.jpg);
+    background-size: cover;
+}
+
+.page:hover{
+    animation: stp 20s infinite;
+}
+@keyframes stp{
+    0%{   background-position: top 5000px left;}
+}
